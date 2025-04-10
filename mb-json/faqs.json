@@ -1,0 +1,35 @@
+{
+    "$schema": "https://schemas.metabox.io/field-group.json",
+    "custom_table": [],
+    "fields": [
+        {
+            "name": "faq",
+            "id": "faq",
+            "type": "group",
+            "clone": true,
+            "hide_from_rest": false,
+            "hide_from_front": false,
+            "fields": [
+                {
+                    "name": "question",
+                    "id": "question",
+                    "type": "text",
+                    "hide_from_rest": false,
+                    "hide_from_front": false,
+                    "limit_type": "character"
+                },
+                {
+                    "name": "answer",
+                    "id": "answer",
+                    "type": "text",
+                    "hide_from_rest": false,
+                    "hide_from_front": false,
+                    "limit_type": "character"
+                }
+            ]
+        }
+    ],
+    "id": "faqs",
+    "modified": 1744259512,
+    "title": "FAQs"
+}
