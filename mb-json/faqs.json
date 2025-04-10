@@ -7,6 +7,8 @@
             "id": "faq",
             "type": "group",
             "clone": true,
+            "min_clone": 0,
+            "max_clone": 0,
             "hide_from_rest": false,
             "hide_from_front": false,
             "fields": [
@@ -30,6 +32,9 @@
         }
     ],
     "id": "faqs",
-    "modified": 1744259512,
+    "modified": 1744261680,
+    "post_types": [
+        "page"
+    ],
     "title": "FAQs"
 }
