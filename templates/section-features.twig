@@ -16,9 +16,7 @@
         {% for item in post.feature %}
         <div class="w-full text-center">
           <div class="rb-5 mb-5 flex justify-center md:mb-6">
-            {% if item.icon %}
-            <i class="fa {{ item.icon }} size-12"></i>
-            {% endif %}
+            <i class="{{ post.feature.icon }} size-12"></i>
           </div>
           <h3 class="mb-3 text-center text-xl font-bold md:mb-4 md:text-2xl">
             {{ item.title }}
