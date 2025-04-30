@@ -1,0 +1,67 @@
+{
+    "$schema": "https://schemas.metabox.io/field-group.json",
+    "autosave": false,
+    "custom_table": [],
+    "default_hidden": false,
+    "fields": [
+        {
+            "name": "features_title",
+            "id": "features_title",
+            "type": "text",
+            "hide_from_rest": false,
+            "hide_from_front": false,
+            "limit_type": "character"
+        },
+        {
+            "name": "feature",
+            "id": "feature",
+            "type": "group",
+            "hide_from_rest": false,
+            "hide_from_front": false,
+            "fields": [
+                {
+                    "name": "icon",
+                    "id": "icon",
+                    "type": "icon",
+                    "icon_set": "font-awesome-free",
+                    "hide_from_rest": false,
+                    "hide_from_front": false
+                },
+                {
+                    "name": "title",
+                    "id": "title",
+                    "type": "text",
+                    "hide_from_rest": false,
+                    "hide_from_front": false,
+                    "limit_type": "character"
+                },
+                {
+                    "name": "description",
+                    "id": "description",
+                    "type": "text",
+                    "hide_from_rest": false,
+                    "hide_from_front": false,
+                    "limit_type": "character"
+                },
+                {
+                    "name": "button_cta",
+                    "id": "button_cta",
+                    "type": "text",
+                    "hide_from_rest": false,
+                    "hide_from_front": false,
+                    "limit_type": "character"
+                },
+                {
+                    "name": "button_link",
+                    "id": "button_link",
+                    "type": "url",
+                    "hide_from_rest": false,
+                    "hide_from_front": false
+                }
+            ]
+        }
+    ],
+    "id": "features",
+    "modified": 1746003597,
+    "title": "Features"
+}
