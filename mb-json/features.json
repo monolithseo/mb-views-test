@@ -16,6 +16,7 @@
             "name": "feature",
             "id": "feature",
             "type": "group",
+            "clone": true,
             "hide_from_rest": false,
             "hide_from_front": false,
             "fields": [
@@ -62,6 +63,9 @@
         }
     ],
     "id": "features",
-    "modified": 1746003597,
+    "modified": 1746004260,
+    "post_types": [
+        "page"
+    ],
     "title": "Features"
 }
