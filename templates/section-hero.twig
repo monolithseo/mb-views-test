@@ -7,19 +7,17 @@
         <h1
           class="rb-5 mb-5 text-4xl font-bold md:mb-6 md:text-5xl lg:text-6xl"
         >
-          Long heading is what you see here in this feature section
+          {{ post.hero_title }}
         </h1>
         <p class="md:text-md">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+          {{ post.hero_description }}
         </p>
       </div>
       <div>
         <img
-          src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+          src="{{ post.thumbnail.src|default('https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg') }}"
           class="w-full rounded-image object-cover"
-          alt="Relume placeholder image"
+          alt="{{ post.hero_image_alt|default(post.title) }}"
         />
       </div>
     </div>
