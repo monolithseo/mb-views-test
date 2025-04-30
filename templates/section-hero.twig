@@ -15,9 +15,9 @@
       </div>
       <div>
         <img
-          src="{{ post.thumbnail.src|default('https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg') }}"
+          src="{{ post.thumbnail.src }}"
           class="w-full rounded-image object-cover"
-          alt="{{ post.hero_image_alt|default(post.title) }}"
+          alt="{{ post.hero_image_alt }}"
         />
       </div>
     </div>
