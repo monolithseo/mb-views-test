@@ -1,7 +1,25 @@
 {
     "$schema": "https://schemas.metabox.io/field-group.json",
+    "autosave": false,
     "custom_table": [],
+    "default_hidden": false,
     "fields": [
+        {
+            "name": "faq_title",
+            "id": "faq_title",
+            "type": "text",
+            "hide_from_rest": false,
+            "hide_from_front": false,
+            "limit_type": "character"
+        },
+        {
+            "name": "faq_description",
+            "id": "faq_description",
+            "type": "text",
+            "hide_from_rest": false,
+            "hide_from_front": false,
+            "limit_type": "character"
+        },
         {
             "name": "faq",
             "id": "faq",
@@ -32,7 +50,7 @@
         }
     ],
     "id": "faqs",
-    "modified": 1744261680,
+    "modified": 1746006322,
     "post_types": [
         "page"
     ],

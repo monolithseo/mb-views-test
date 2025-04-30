@@ -1,0 +1,44 @@
+{
+    "$schema": "https://schemas.metabox.io/field-group.json",
+    "custom_table": [],
+    "fields": [
+        {
+            "name": "cta_title",
+            "id": "cta_title",
+            "type": "text",
+            "hide_from_rest": false,
+            "hide_from_front": false,
+            "limit_type": "character"
+        },
+        {
+            "name": "cta_description",
+            "id": "cta_description",
+            "type": "text",
+            "hide_from_rest": false,
+            "hide_from_front": false,
+            "limit_type": "character"
+        },
+        {
+            "name": "cta_button_1_text",
+            "id": "cta_button_1_text",
+            "type": "text",
+            "hide_from_rest": false,
+            "hide_from_front": false,
+            "limit_type": "character"
+        },
+        {
+            "name": "cta_button_2_text",
+            "id": "cta_button_2_text",
+            "type": "text",
+            "hide_from_rest": false,
+            "hide_from_front": false,
+            "limit_type": "character"
+        }
+    ],
+    "id": "cta",
+    "modified": 1745992694,
+    "post_types": [
+        "page"
+    ],
+    "title": "CTA"
+}

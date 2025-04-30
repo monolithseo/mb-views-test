@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schemas.metabox.io/field-group.json",
+    "custom_table": [],
+    "fields": [
+        {
+            "name": "hero_title",
+            "id": "hero_title",
+            "type": "text",
+            "hide_from_rest": false,
+            "hide_from_front": false,
+            "limit_type": "character"
+        },
+        {
+            "name": "hero_description",
+            "id": "hero_description",
+            "type": "text",
+            "hide_from_rest": false,
+            "hide_from_front": false,
+            "limit_type": "character"
+        },
+        {
+            "name": "hero_image_alt",
+            "id": "hero_image_alt",
+            "type": "text",
+            "hide_from_rest": false,
+            "hide_from_front": false,
+            "limit_type": "character"
+        }
+    ],
+    "id": "hero",
+    "modified": 1745990691,
+    "post_types": [
+        "page"
+    ],
+    "title": "Hero"
+}
