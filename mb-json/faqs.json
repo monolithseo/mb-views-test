@@ -1,8 +1,6 @@
 {
     "$schema": "https://schemas.metabox.io/field-group.json",
-    "autosave": false,
     "custom_table": [],
-    "default_hidden": false,
     "fields": [
         {
             "name": "faq_title",
@@ -50,9 +48,10 @@
         }
     ],
     "id": "faqs",
-    "modified": 1746006322,
+    "modified": 1746068849,
     "post_types": [
-        "page"
+        "page",
+        "location"
     ],
     "title": "FAQs"
 }

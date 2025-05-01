@@ -36,9 +36,10 @@
         }
     ],
     "id": "cta",
-    "modified": 1745992694,
+    "modified": 1746068869,
     "post_types": [
-        "page"
+        "page",
+        "location"
     ],
     "title": "CTA"
 }

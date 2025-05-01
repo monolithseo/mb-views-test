@@ -28,9 +28,10 @@
         }
     ],
     "id": "hero",
-    "modified": 1745990691,
+    "modified": 1746069285,
     "post_types": [
-        "page"
+        "page",
+        "location"
     ],
     "title": "Hero"
 }
